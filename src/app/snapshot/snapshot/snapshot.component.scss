@@ -1,6 +1,12 @@
 .snapshot {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
     div.title {
         display: flex;
+        flex-direction: column;
+        justify-content: center;
         position: relative;
         top: 100px;
         span {
@@ -8,9 +14,44 @@
             font-family: 'Roboto', sans-serif;
             font-weight: 100;
             text-align: center;
-            font-size: 40px;
+            font-size: 30px;
             margin: 0 auto;
             display: inline-block;
+            padding: 10px;
+            border-radius: 5px;
+            margin-top: 10px;
+            position: relative;
         }
+
+        ._author_logo {
+            width:100px;
+            height: 100px;
+            border-radius: 50%;
+            background-image: url(/assets/images/author.jpg);
+            margin: 0 auto;
+            background-size: cover;
+            box-shadow: 0px 5px 35px #111111;
+            position: relative;
+        }
+    }
+
+    .hbar {
+        height: 1px;
+        background: #8b8a8a;
+        position: relative;
+        top:250px;
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .skills_label {
+        color: #beaa8c;
+        position: relative;
+        top:240px;
+        margin: 0 auto;
+        display: inline-block;
+        text-align: center;
+        background: #2c3240;
+        width: 100px;
     }
 }
