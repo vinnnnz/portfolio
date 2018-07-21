@@ -6,7 +6,8 @@
 
   <div class="hbar"></div>
   <span class="skills_label">Skills</span>
-  <div class="Skills">
-    
+  <div class="skills">
+
+    <skill-tile *ngFor="let skill of skills" skillName="{{skill.name}}" skillClass="skill {{skill.class}}"></skill-tile>
   </div>
 </div>

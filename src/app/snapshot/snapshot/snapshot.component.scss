@@ -30,8 +30,9 @@
             background-image: url(/assets/images/author.jpg);
             margin: 0 auto;
             background-size: cover;
-            box-shadow: 0px 5px 35px #111111;
+            //box-shadow: 0px 5px 35px #111111;
             position: relative;
+            transition: all 0.35s 0.6s ease;
         }
     }
 
@@ -53,5 +54,16 @@
         text-align: center;
         background: #2c3240;
         width: 100px;
+    }
+
+    .skills {
+        position: relative;
+        top: 250px;
+        width: 70%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        transition: all 0.35s 0.6s ease;
     }
 }

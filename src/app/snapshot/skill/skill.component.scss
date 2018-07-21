@@ -1,0 +1,23 @@
+.x4 {
+    font-size: 60px;
+    color: #989595;
+    margin: 0 auto;
+    width: 100%;
+    display: inline-block;
+}
+
+.skill-active {
+    color: green;
+    transition: all 0.5s ease;
+}
+
+.skill-tile {
+    width: 100px;
+    text-align: center;
+    color: #989595;
+    font-family: 'georgia', 'times';
+    font-style: italic;
+    cursor: pointer;
+    margin-top: 30px;
+    transition: all 1s 1s ease;
+}

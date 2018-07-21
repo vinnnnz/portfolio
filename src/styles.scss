@@ -4,4 +4,15 @@
 html, body {
     margin: 0px;
     background: #2c3240;
+    width: 100%;
+    height: 100%;
+}
+
+*{
+    transition: all 1s;
+}
+
+*::selection {
+    background-color: #dc491d;
+    color: #FFFFFF;
 }
